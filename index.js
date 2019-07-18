@@ -7,13 +7,13 @@ class Driver{
     return year - this.startDate.getFullYear();
   }
 }
-class Route{
-  constructor(beginningLocation, endingLocation){
-    this.beginningLocation = beginningLocation;
-    this.endingLocation = endingLocation;
+class Route {
+  constructor(beginingLocation, endingLocation) {
+    this.beginingLocation = beginingLocation;
+    this.endingLocation   = endingLocation;
   }
   blocksTravelled() {
-    let eastWest = [
+        let eastWest = [
       '1st Avenue',
       '2nd Avenue',
       '3rd Avenue',
